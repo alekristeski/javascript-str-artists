@@ -1,0 +1,17 @@
+// BUTTONS Global Style
+@use "../abstracts/mediaqueries" as *;
+@use "../abstracts/variables" as *;
+
+button {
+  border: none;
+  outline: none;
+  border-radius: 2px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  padding: 6.5px 17.5px;
+  height: fit-content;
+  cursor: pointer;
+}

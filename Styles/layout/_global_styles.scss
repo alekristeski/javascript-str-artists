@@ -1,0 +1,22 @@
+// ALL Pages Global Styles
+// ***********
+@use "../abstracts/mediaqueries" as *;
+@use "../abstracts/variables" as *;
+
+body {
+  background-color: $background-light;
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  overflow-x: hidden;
+}
+section {
+  display: none;
+}
+h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 35px;
+}
